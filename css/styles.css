@@ -74,7 +74,7 @@ a {
 	padding: 0 15px;
 }
 
-/* Header */
+/*============= Header ==============*/
 
 .header {
 	background: #ffffff;
@@ -99,7 +99,6 @@ a {
 
 .logo-first {
 	color: var(--main-text-color);
-
 	transition: color var(--transition);
 }
 
@@ -120,7 +119,6 @@ a {
 	color: var(--main-text-color);
 	padding: 24px 0;
 	display: block;
-
 	transition: color var(--transition);
 }
 
@@ -145,9 +143,9 @@ a {
 	gap: 40px;
 	margin-left: auto;
 }
+
 .contakts-link {
 	color: var(--secondary-text-color);
-
 	transition: color var(--transition);
 }
 
@@ -160,7 +158,7 @@ a {
 	color: var(--focused-links-color);
 }
 
-/* Mein */
+/*============= Mein =============*/
 
 .solution {
 	background-color: var(--main-text-color);
@@ -201,7 +199,6 @@ a {
 	border-radius: 4px;
 	margin: 0 auto;
 	margin-top: 48px;
-
 	transition: background-color var(--transition);
 }
 
@@ -212,7 +209,7 @@ a {
 	border-radius: 4px;
 }
 
-/* Section Description*/
+/*=========== Section Description ============*/
 
 .visually-hidden {
 	position: absolute;
@@ -257,7 +254,7 @@ a {
 	letter-spacing: 0.02em;
 }
 
-/* Section Work */
+/*============ Section Work =============*/
 
 .work {
 	padding-top: 0;
@@ -278,7 +275,7 @@ a {
 	gap: 24px;
 }
 
-/* Section Team */
+/*============ Section Team =============*/
 
 .team {
 	background-color: var(--light-background-color);
@@ -341,7 +338,6 @@ a {
 	height: 40px;
 	border-radius: 50%;
 	background-color: var(--focused-links-color);
-
 	transition: background-color var(--transition);
 }
 
@@ -350,7 +346,7 @@ a {
 	background-color: var(--valid-fields-color);
 }
 
-/* Section Customers */
+/*========== Section Customers ===========*/
 
 .customers-title {
 	font-weight: 700;
@@ -377,7 +373,6 @@ a {
 	border-color: currentColor;
 	border-radius: 4px;
 	color: var(--helper-text-color);
-
 	transition: color var(--transition);
 }
 
@@ -390,17 +385,18 @@ a {
 	fill: currentColor;
 }
 
-/* Footer */
+/*========== Footer ===========*/
 
 .footer {
 	display: flex;
 	background-color: var(--main-text-color);
 	padding: 100px 0;
 }
+
 .footer-container {
 	display: flex;
-	margin-left: 210px;
 }
+
 .footer-logo {
 	font-family: "Raleway";
 	font-weight: 800;
@@ -456,7 +452,6 @@ a {
 	height: 40px;
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.1);
-
 	transition: background-color var(--transition);
 }
 
@@ -465,7 +460,79 @@ a {
 	background-color: var(--valid-fields-color);
 }
 
-/* Стили для портфолио */
+/*========== Footer Subscribe ==========*/
+
+.footer-subscribe {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+}
+
+.footer-subscribe-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--background-color);
+	margin-bottom: 16px;
+}
+
+.subscribe-btn {
+	display: flex;
+	align-items: center;
+	padding: 8px 24px;
+	margin-left: 24px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	color: var(--background-color);
+	background-color: var(--focused-links-color);
+	transition: background-color var(--transition);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+	background-color: var(--button-color);
+}
+
+.subscribe-input {
+	display: flex;
+	justify-content: center;
+	padding: 8px 16px;
+	width: 264px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.04em;
+	color: rgba(255, 255, 255, 0.6);
+	background-color: transparent;
+}
+
+.subscribe-input::placeholder {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 2;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-subcribe-btn {
+	display: flex;
+	flex-direction: center;
+}
+
+.subscribe-icon {
+	margin-left: 16px;
+	justify-self: center;
+	fill: #f4f4fd;
+}
+
+/*========== Стили для портфолио ==========*/
 
 .descript {
 	padding: 120px 0;
@@ -488,7 +555,6 @@ a {
 	color: var(--focused-links-color);
 	background-color: var(--light-background-color);
 	padding: 12px 24px;
-
 	transition: background-color var(--transition);
 }
 
@@ -511,7 +577,6 @@ a {
 
 .prop-item {
 	display: block;
-
 	transition: box-shadow var(--transition);
 }
 
@@ -785,102 +850,3 @@ a {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
-
-/*========== Footer Subscribe ==========*/
-
-.footer-subscribe {
-	display: flex;
-	flex-direction: column;
-	margin-right: 230px;
-}
-
-.footer-subscribe-title {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	color: var(--background-color);
-	margin-bottom: 16px;
-}
-
-.subscribe-btn {
-	display: flex;
-	align-items: center;
-	padding: 8px 24px;
-	margin-left: 24px;
-	border: 1px solid transparent;
-	border-radius: 4px;
-	cursor: pointer;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	text-align: center;
-	color: var(--background-color);
-	background-color: var(--focused-links-color);
-	transition: background-color var(--transition);
-}
-
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-	background-color: var(--button-color);
-}
-
-.subscribe-input {
-	display: flex;
-	justify-content: center;
-	padding: 8px 16px;
-	width: 264px;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 2;
-	letter-spacing: 0.04em;
-	color: rgba(255, 255, 255, 0.6);
-	background-color: transparent;
-}
-
-.subscribe-input::placeholder {
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 2;
-	color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-subcribe-btn {
-	display: flex;
-	flex-direction: center;
-}
-
-.subscribe-icon {
-	margin-left: 16px;
-	justify-self: center;
-	fill: #f4f4fd;
-}
-
-/*.solution-btn {
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.19;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.04em;
-	padding: 16px 32px;
-	cursor: pointer;
-	font-family: inherit;
-	color: var(--background-color);
-	background-color: var(--focused-links-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-	margin: 0 auto;
-	margin-top: 48px;
-
-	transition: background-color var(--transition);
-}
-
-.solution-btn:hover,
-.solution-btn:focus {
-	background-color: var(--button-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-}*/
