@@ -619,7 +619,11 @@ a {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
 	background-color: var(--button-color);
-	background-image: url("../images/close-white.svg");
+}
+
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
+	fill: var(--background-color);
 }
 
 /*========== Modal Form ==========*/
@@ -730,12 +734,16 @@ a {
 
 .modal-form-check:checked + .modal-form-check-desc::before {
 	background-color: var(--button-color);
-	background-image: url("../images/vector.svg");
+	background-image: url("../images/checkbox.svg");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
 	background-color: var(--button-color);
-	background-image: url("../images/vector.svg");
+	background-image: url("../images/checkbox.svg");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .modal-form-submit {
