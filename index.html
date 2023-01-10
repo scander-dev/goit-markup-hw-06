@@ -365,7 +365,7 @@
 				</form>
 			</div>
 		</footer>
-		<div class="backdrop" data-modal>
+		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<button type="button" class="modal-close-btn" data-modal-close>
 					<svg class="modal-close-btn-icon" width="8" height="8">
@@ -417,12 +417,17 @@
 					</label>
 					<label class="modal-form-field">
 						<span class="modal-form-input-desc">Comment</span>
-						<textarea name="user_massage" class="modal-form-massage" placeholder="Text input"></textarea>
+						<textarea
+							name="user_massage"
+							class="modal-form-massage"
+							placeholder="Text input"
+							pattern="^[a-zA-Zа-яА-Я]+"
+						></textarea>
 					</label>
 					<input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check visually-hidden" />
 					<label for="user-policy" class="modal-form-check-desc">
 						I accept the terms and conditions of the&nbsp;
-						<a href="#">Privacy Policy</a>
+						<a href="#" class="policy-link">Privacy Policy</a>
 					</label>
 					<button type="submit" class="modal-form-submit">Send</button>
 				</form>

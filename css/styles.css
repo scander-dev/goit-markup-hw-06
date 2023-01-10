@@ -571,7 +571,6 @@ a {
 
 /*========= Modal Window ===========*/
 
-/*додати "backdrop is-hidden"*/
 .backdrop {
 	position: fixed;
 	top: 0;
@@ -619,6 +618,10 @@ a {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
 	background-color: var(--button-color);
+}
+
+.modal-close-btn-icon {
+	transition: fill var(--transition);
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
@@ -681,9 +684,14 @@ a {
 	left: 16px;
 	transform: translateY(-50%);
 	display: block;
+	transition: fill var(--transition);
 }
 
 .modal-form-input:focus + .modal-form-input-icon {
+	fill: var(--focused-links-color);
+}
+
+.modal-form-input-icon:focus {
 	fill: var(--focused-links-color);
 }
 
@@ -701,7 +709,7 @@ a {
 	line-height: 1.33;
 	color: rgba(117, 117, 117, 0.5);
 	letter-spacing: 0.04em;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 .modal-form-massage:focus {
@@ -718,7 +726,11 @@ a {
 	line-height: 1.33;
 	letter-spacing: 0.04em;
 	color: #757575;
+}
+
+.policy-link {
 	text-decoration: underline;
+	color: var(--focused-links-color);
 }
 
 .modal-form-check-desc::before {
@@ -775,7 +787,7 @@ a {
 .footer-subscribe {
 	display: flex;
 	flex-direction: column;
-	margin-right: 180px;
+	margin-right: 230px;
 }
 
 .footer-subscribe-title {
