@@ -724,12 +724,12 @@ a {
 
 .modal-form-check:checked + .modal-form-check-desc::before {
 	background-color: var(--button-color);
-	background-image: url("./images/checkbox.svg");
+	background-image: url("../images/vector.svg");
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
 	background-color: var(--button-color);
-	background-image: url("./images/checkbox.svg");
+	background-image: url("../images/vector.svg");
 }
 
 .modal-form-submit {
