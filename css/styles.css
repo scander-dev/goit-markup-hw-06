@@ -630,6 +630,11 @@ a {
 
 .modal-title {
 	margin-bottom: 14px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.02em;
 }
 
 .modal-form-field {
