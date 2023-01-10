@@ -619,6 +619,7 @@ a {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
 	background-color: var(--button-color);
+	background-image: url("../images/close-white.svg");
 }
 
 /*========== Modal Form ==========*/
