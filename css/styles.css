@@ -649,6 +649,10 @@ a {
 	margin-bottom: 8px;
 }
 
+.modal-form-field-com {
+	margin-bottom: 16px;
+}
+
 .modal-form-input-desc {
 	display: block;
 	font-weight: 400;
@@ -720,7 +724,7 @@ a {
 .modal-form-check-desc {
 	display: flex;
 	align-items: center;
-	margin-bottom: 24px;
+	margin-bottom: 16px;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 1.33;
